@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Student
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            FirstWindow first = new FirstWindow();
+            first.display();
+            Console.ReadKey();
+        }
+    }
+}
